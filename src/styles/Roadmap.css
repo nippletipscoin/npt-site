@@ -9,6 +9,7 @@
 .roadmap-inner-wrapper {
   width: 95vw;
   max-width: 370px;
+  margin-left: 1rem;
 }
 
 .roadmap-inner {
