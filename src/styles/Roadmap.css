@@ -7,8 +7,8 @@
 }
 
 .roadmap-inner-wrapper {
-  width: 100vw;
-  max-width: 380px;
+  width: 95vw;
+  max-width: 370px;
 }
 
 .roadmap-inner {
@@ -17,7 +17,7 @@
 }
 
 .roadmap-img {
-  width: 100%;
+  width: 99%;
   display: block;
   z-index: 1;
 }
