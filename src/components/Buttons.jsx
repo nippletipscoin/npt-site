@@ -48,7 +48,13 @@ const Buttons = () => {
         onClick={() => setIsModalOpen(true)}
       />
 
+      <a
+        href="https://npt-site.vercel.app/whitepaper.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >  
       <img src={whitepaper} alt="White Paper" className="btn-img" />
+      </a>
 
       {/* Modal */}
       {isModalOpen && (
