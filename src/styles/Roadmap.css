@@ -17,15 +17,15 @@
 }
 
 .roadmap-img {
-  width: 99%;
+  width: 98%;
   display: block;
   z-index: 1;
 }
 
 .ghost-map {
   position: absolute;
-  left: -75px; /* Adjust this value as needed */
-  bottom: 350px;
+  left: -68px;
+  bottom: 355px;
   width: 95px;
   z-index: 0;
   pointer-events: none;
