@@ -1,0 +1,33 @@
+.roadmap-section {
+  background-color: #1e1e1e;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.roadmap-inner-wrapper {
+  width: 100vw;
+  max-width: 380px;
+}
+
+.roadmap-inner {
+  position: relative;
+  width: 100%;
+}
+
+.roadmap-img {
+  width: 100%;
+  display: block;
+  z-index: 1;
+}
+
+.ghost-map {
+  position: absolute;
+  left: -75px; /* Adjust this value as needed */
+  bottom: 350px;
+  width: 95px;
+  z-index: 0;
+  pointer-events: none;
+  animation: float 4s ease-in-out infinite;
+}

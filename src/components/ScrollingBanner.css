@@ -1,0 +1,34 @@
+.sticky-banner {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: rgba(17, 17, 17, 0.176);
+  overflow: hidden;
+  height: 30px;
+  width: 100%;
+}
+
+.scrolling-banner-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll 20s linear infinite;
+}
+
+.scrolling-banner-text {
+  white-space: nowrap;
+  padding-right: 0px; /* space between duplicated messages */
+  color: rgba(255, 255, 255, 0.52);
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+/* Infinite scroll animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(-12.5%);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}

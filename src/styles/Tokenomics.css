@@ -1,0 +1,11 @@
+.tokenomics-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  background-color: #1e1e1e;
+}
+
+.tokenomics-img {
+  width: 95vw;
+  max-width: 360px;
+}

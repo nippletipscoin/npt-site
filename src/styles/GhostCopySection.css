@@ -1,0 +1,31 @@
+.ghost-copy-section {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.booGIF {
+  position: absolute;
+  top: -210px; /* Adjust vertically next to ghost */
+  right: 50px; /* Shift right of ghost */
+  width: 200px; /* Make it smaller */
+  z-index: 3;
+}
+
+.floating-ghost {
+  position: absolute;
+  top: -135px;
+  right: 220px;
+  width: 135px;
+  animation: float 3s ease-in-out infinite;
+  z-index: 2;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}

@@ -1,0 +1,23 @@
+.mission-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  background-color: #1e1e1e;
+}
+
+.mission-img {
+  width: 95vw;
+  max-width: 360px;
+}
+
+.mission-inner {
+  position: relative;
+}
+
+.ghost-coin {
+  position: absolute;
+  bottom: -75px;
+  right: -50px;
+  width: 100px;
+  animation: float 3s ease-in-out infinite;
+}

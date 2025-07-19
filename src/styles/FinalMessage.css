@@ -1,0 +1,40 @@
+.final-message-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  background-color: #1e1e1e;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.final-message-content {
+  position: relative;
+  width: 110%;
+  max-width: 440px;
+  padding-right: 50px;
+}
+
+.final-message-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+
+.space-ghost {
+  position: absolute;
+  width: 150px;
+  right: 0px;
+  bottom: 200px;
+  z-index: 2;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}

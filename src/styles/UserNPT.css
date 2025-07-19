@@ -1,0 +1,56 @@
+.user-npt-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.npt-group-img {
+  width: 100%;
+}
+
+.connect-wallet-btn {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+}
+
+.wallet-address {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  word-break: break-word;
+}
+
+.disconnect-btn {
+  background-color: #0f0f0f;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0;
+  padding: 4px 7px;
+  font-size: 12px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.npt-balance {
+  font-family: "snug-sharp-variable", sans-serif;
+  font-variation-settings: 'XHGT' 100, 'wdth' 1, 'wght' 200;
+  font-size: 170px;
+  letter-spacing: 0.5px;
+  color: #fdfbe2;
+  margin-top: -203px;
+}
+
+.connect-wallet-message {
+  font-family: "snug-sharp-variable", sans-serif;
+  font-variation-settings: 'XHGT' 100, 'wdth' 1, 'wght' 200;
+  font-size: 155px;
+  letter-spacing: 0.5px;
+  color: #fdfbe2;
+  margin-top: -175px;
+}
