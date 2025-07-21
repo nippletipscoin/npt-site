@@ -17,9 +17,9 @@
 
 .poly-btn {
   width: 50vw;
-  max-width: 110px;
+  max-width: 50px;
   display: block;
-  padding-top: 10px;
+  padding-top: 0px;
   margin: 0 auto;
   cursor: pointer;
 }

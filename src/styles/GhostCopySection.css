@@ -15,6 +15,14 @@
   z-index: 3;
 }
 
+.telePlane {
+  position: absolute;
+  top: 108px;
+  right: 202px;
+  width: 35px;
+  z-index: 3;
+}
+
 .floating-ghost {
   position: absolute;
   top: -135px;
