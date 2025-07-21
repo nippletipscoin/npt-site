@@ -5,7 +5,7 @@ import "../styles/NPTIcon.css";
 
 const NPTIcon = () => {
     return (
-        <div className="NPTIcon">
+        <div className="NPTIcon1">
           <img src={nptIcon} className="NPTIcon2" />
         </div>
       );

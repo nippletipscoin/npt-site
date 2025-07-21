@@ -10,6 +10,7 @@ import GhostCopySection from "./components/GhostCopySection";
 import ScrollingBanner from "./components/ScrollingBanner";
 import JPButton from "./components/JPButton";
 import NPTIcon from "./components/NPTIcon";
+import POLYGONIcon from "./components/PolygonIcon";
 
 function App() {
   const [connected, setConnected] = useState(false);
@@ -48,13 +49,13 @@ function App() {
       </div>
       <div className="FinalMessage-spacing">
         <FinalMessage />
-      
-
-      
       <footer style={{ textAlign: 'center', marginTop: '1rem', marginBottom: '.75rem', padding: '25px', color: '#888', fontSize: '0.75rem' }}>
-        <div className="nptIcon">
+        <div className="nptIcon1">
         <NPTIcon />
       </div>
+        <div className="polygonIcon1">
+        <POLYGONIcon />
+        </div>
         © NippleTips 2025
         Disclaimer: The information provided in this document and on this platform does not constitute investment, financial, or trading advice. It is for informational purposes only. You should not treat any information provided as a recommendation to buy, sell, or hold any cryptocurrency or financial product. Please do your own research and consult with a qualified financial advisor in your region before making any investment decisions. Participation in this project is at your own risk. This is a meme token.
       </footer>

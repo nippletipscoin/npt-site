@@ -9,9 +9,9 @@
 
 .booGIF {
   position: absolute;
-  top: -210px; /* Adjust vertically next to ghost */
-  right: 50px; /* Shift right of ghost */
-  width: 200px; /* Make it smaller */
+  top: -210px;
+  right: 50px;
+  width: 200px;
   z-index: 3;
 }
 

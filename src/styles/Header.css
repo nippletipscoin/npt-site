@@ -9,10 +9,12 @@
 
 .npt-logo {
   width: 250px;
+  margin-top: 5px;
   margin-bottom: 30px;
 }
 
 .npt-tagline {
   width: 95%;
-  max-width: 300px;
+  max-width: 285px;
+  margin-bottom: 0px;
 }

@@ -21,3 +21,10 @@
   width: 100px;
   animation: float 3s ease-in-out infinite;
 }
+
+.polygon-logo {
+  position: absolute;
+  bottom: -50px;
+  right: 135px;
+  width: 100px;
+}
