@@ -4,6 +4,7 @@ import telegram from "../assets/telegram-btn.svg";
 import twitter from "../assets/twitter-btn.svg";
 import contract from "../assets/contract-btn.svg";
 import whitepaper from "../assets/white-paper-btn.svg";
+import polygonscan from "../assets/polygonscan.svg";
 
 import "../styles/Buttons.css";
 
@@ -54,6 +55,14 @@ const Buttons = () => {
         rel="noopener noreferrer"
       >  
       <img src={whitepaper} alt="White Paper" className="btn-img" />
+      </a>
+
+      <a
+        href="https://polygonscan.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >  
+      <img src={polygonscan} alt="PolygonScan" className="poly-btn" />
       </a>
 
       {/* Modal */}

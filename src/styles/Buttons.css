@@ -14,3 +14,11 @@
   margin: 0 auto;
   cursor: pointer;
 }
+
+.poly-btn {
+  width: 75vw;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
