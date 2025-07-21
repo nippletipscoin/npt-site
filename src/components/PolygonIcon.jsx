@@ -1,7 +1,7 @@
 import React from "react";
 import polygonIcon from "../assets/polygon-icon.svg";
 
-import "../styles/polygonIcon.css";
+import "../styles/PolygonIcon.css";
 
 const POLYGONIcon = () => {
     return (
