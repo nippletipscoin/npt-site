@@ -1,6 +1,6 @@
 .user-npt-wrapper {
   position: relative;
-  width: 100%;
+  width: 95%;
   max-width: 360px;
   margin: 0 auto;
 }
@@ -11,7 +11,7 @@
 
 .connect-wallet-btn {
   width: 160px;
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
   display: block;
   margin: 5px auto 0 auto;

@@ -1,16 +1,16 @@
 .ghost-copy-section {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 360px;
   margin: 40px auto;
-  padding: 0 16px;
+  padding: 0 0px;
   text-align: center;
 }
 
 .booGIF {
   position: absolute;
   top: -210px;
-  right: 50px;
+  right: 30px;
   width: 200px;
   z-index: 3;
 }
@@ -18,7 +18,7 @@
 .telePlane {
   position: absolute;
   top: 108px;
-  right: 202px;
+  right: 182px;
   width: 35px;
   z-index: 3;
 }
@@ -26,7 +26,7 @@
 .floating-ghost {
   position: absolute;
   top: -135px;
-  right: 220px;
+  right: 195px;
   width: 135px;
   animation: float 3s ease-in-out infinite;
   z-index: 2;

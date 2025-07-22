@@ -11,13 +11,13 @@
 
 .final-message-content {
   position: relative;
-  width: 110%;
+  width: 100%;
   max-width: 440px;
   padding-right: 50px;
 }
 
 .final-message-img {
-  width: 100%;
+  width: 95%;
   height: auto;
   display: block;
   z-index: 1;
@@ -26,6 +26,7 @@
 
 .space-ghost {
   position: absolute;
+  overflow: hidden;
   width: 150px;
   right: 0px;
   bottom: 200px;

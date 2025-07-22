@@ -8,8 +8,7 @@
 
 .roadmap-inner-wrapper {
   width: 95vw;
-  max-width: 370px;
-  margin-left: 1rem;
+  max-width: 360px;
 }
 
 .roadmap-inner {
@@ -18,13 +17,14 @@
 }
 
 .roadmap-img {
-  width: 98%;
+  width: 100%;
   display: block;
   z-index: 1;
 }
 
 .ghost-map {
   position: absolute;
+  overflow-x: hidden;
   left: -68px;
   bottom: 355px;
   width: 95px;

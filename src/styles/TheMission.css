@@ -1,13 +1,14 @@
 .mission-wrapper {
-  display: flex;
+  position: relative;
+  overflow: hidden;
   justify-content: center;
-  padding: 24px 0;
+  padding: 60px 0;
   background-color: #1e1e1e;
 }
 
 .mission-img {
   width: 95vw;
-  max-width: 360px;
+  max-width: 340px;
 }
 
 .mission-inner {
@@ -16,15 +17,15 @@
 
 .ghost-coin {
   position: absolute;
-  bottom: -75px;
-  right: -50px;
+  bottom: -100px;
+  right: 35px;
   width: 100px;
   animation: float 3s ease-in-out infinite;
 }
 
-.polygon-logo {
+.polygon-lg {
   position: absolute;
-  bottom: -50px;
-  right: 135px;
+  bottom: -60px;
+  right: 206px;
   width: 100px;
 }

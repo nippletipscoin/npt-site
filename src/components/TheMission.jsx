@@ -10,7 +10,7 @@ const TheMission = () => {
       <div className="mission-inner">
         <img src={theMission} className="mission-img" alt="The Mission" />
         <img src={ghostCoin} className="ghost-coin" alt="Ghost Coin" />
-        <img src={polygonLogo} className="polygon-logo" alt="Polygon Logo" />
+        <img src={polygonLogo} className="polygon-lg" alt="Polygon Logo" />
       </div>
     </div>
   );
