@@ -4,11 +4,12 @@
   padding: 0;
   gap: 0;
   width: 95vw;
+  padding-right: 10px;
 }
 
 .NPTIcon2 {
-  width: 5%;
-  max-width: 25px;
+  width: 27px;
+  max-width: 27px;
   display: block;
   margin: 3px auto;
   cursor: pointer;
