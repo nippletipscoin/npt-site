@@ -6,7 +6,7 @@
 
 main {
   width: 95%;
-  max-width: 360px; /* You can increase if needed */
+  max-width: 360px;
   margin: 0 auto;
   padding: 0 10px;
 }

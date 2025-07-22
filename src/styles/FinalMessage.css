@@ -29,7 +29,7 @@
   overflow: hidden;
   width: 150px;
   right: 0px;
-  bottom: 200px;
+  bottom: 155px;
   z-index: 2;
   animation: float 3s ease-in-out infinite;
 }

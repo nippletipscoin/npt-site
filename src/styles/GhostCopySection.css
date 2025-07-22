@@ -9,9 +9,9 @@
 
 .booGIF {
   position: absolute;
-  top: -210px;
-  right: 30px;
-  width: 200px;
+  top: -190px;
+  right: 50px;
+  width: 160px;
   z-index: 3;
 }
 
@@ -25,9 +25,9 @@
 
 .floating-ghost {
   position: absolute;
-  top: -135px;
-  right: 195px;
-  width: 135px;
+  top: -130px;
+  right: 185px;
+  width: 115px;
   animation: float 3s ease-in-out infinite;
   z-index: 2;
 }

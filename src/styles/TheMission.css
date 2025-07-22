@@ -1,31 +1,49 @@
 .mission-wrapper {
   position: relative;
-  overflow: hidden;
+  display: flex;
   justify-content: center;
-  padding: 60px 0;
+  align-items: center;
+  padding: 120px 0 180px;
   background-color: #1e1e1e;
-}
-
-.mission-img {
-  width: 95vw;
-  max-width: 340px;
+  overflow: hidden;
 }
 
 .mission-inner {
   position: relative;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.mission-img {
+  width: 98vw;
+  max-width: 340px;
+  z-index: 1;
 }
 
 .ghost-coin {
   position: absolute;
-  bottom: -100px;
-  right: 35px;
-  width: 100px;
+  top: -100px;
+  left: 140px;
+  width: 110px;
   animation: float 3s ease-in-out infinite;
+  z-index: 2;
 }
 
 .polygon-lg {
   position: absolute;
   bottom: -60px;
-  right: 206px;
+  right: 50%;
+  transform: translateX(50%);
   width: 100px;
+  z-index: 0;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
