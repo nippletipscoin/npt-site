@@ -79,7 +79,7 @@ const UserNPT = () => {
           {balance !== null ? (
             <p className="npt-balance">{balance}</p>
           ) : (
-            <p className="npt-balance">Loading NPT...</p>
+            <p className="npt-balance">LOADING NPT...</p>
           )}
           <button className="disconnect-btn" onClick={() => setWalletAddress(null)}>
             Disconnect
