@@ -49,7 +49,7 @@ function App() {
       </div>
       <div className="FinalMessage-spacing">
         <FinalMessage />
-      <footer style={{ textAlign: 'center', marginTop: '1rem', marginBottom: '.75rem', padding: '70px', color: '#888', fontSize: '0.75rem' }}>
+      <footer style={{ textAlign: 'center', marginTop: '1rem', marginBottom: '.75rem', color: '#888', fontSize: '0.75rem' }}>
         <div className="nptIcon1">
         <NPTIcon />
       </div>
