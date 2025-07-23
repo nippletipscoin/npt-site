@@ -25,9 +25,9 @@
 .ghost-map {
   position: absolute;
   overflow-x: hidden;
-  left: -70px;
-  bottom: 385px;
-  width: 95px;
+  left: -33px;
+  bottom: 400px;
+  width: 55px;
   z-index: 0;
   pointer-events: none;
   animation: float 4s ease-in-out infinite;
