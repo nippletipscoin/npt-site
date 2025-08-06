@@ -4,7 +4,7 @@ export default function ContractModal() {
   const [isOpen, setIsOpen] = useState(false);
 
   const tokenUrl = "https://polygonscan.com/address/0x4d3E63345E3B92CE2996caA8e8c64551Ee934721#code";
-  const presaleUrl = "https://polygonscan.com/address/0xBb51A9178BcAe68F1e00FC37D004AdCEc1C530DF#code";
+  const presaleUrl = "https://polygonscan.com/address/0x4D1a2FbAfAc7570449DD960CA048e60dd7dA93Da#code";
 
   return (
     <div>
