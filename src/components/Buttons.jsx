@@ -11,8 +11,8 @@ import "../styles/Buttons.css";
 const Buttons = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const tokenUrl = "https://polygonscan.com/address/0x4d3E63345E3B92CE2996caA8e8c64551Ee934721#code";
-  const presaleUrl = "https://polygonscan.com/address/0x4D1a2FbAfAc7570449DD960CA048e60dd7dA93Da#code";
+  const tokenUrl = "https://polygonscan.com/address/0xAF6Da09de1dDf2cF0FE8e0F724111b38BcfFC524#code";
+  const presaleUrl = "https://polygonscan.com/address/0x2f73e4D9d5E537ADc2f8A11357a2D5CD7bbFa1eb#code";
 
   return (
     <div className="buttons-wrapper">

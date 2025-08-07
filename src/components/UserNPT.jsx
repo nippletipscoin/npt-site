@@ -6,7 +6,7 @@ import connectWalletBtn from "../assets/connect-wallet-btn.svg";
 import "../styles/UserNPT.css";
 
 // NPT token details
-const NPT_TOKEN_ADDRESS = "0x4d3E63345E3B92CE2996caA8e8c64551Ee934721";
+const NPT_TOKEN_ADDRESS = "0xAF6Da09de1dDf2cF0FE8e0F724111b38BcfFC524";
 const NPT_ABI = [
   "function balanceOf(address) view returns (uint256)",
   "function decimals() view returns (uint8)",
